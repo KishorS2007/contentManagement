@@ -94,7 +94,7 @@ const UploadFile = () => {
     <>
     <label htmlFor="file" className='border-2 bg-[#f8f3fc] border-[#b377f9] border-dashed mt-15 h-[43vh] flex justify-center items-center rounded-2xl'>
         <div>
-        {/* <CloudUploadIcon sx={{color:"#b377f9",scale:1.7,marginBottom:2}}/> */}
+        <CloudUploadIcon sx={{color:"#b377f9",scale:1.7,marginBottom:2}}/>
         <br />
         <p className='text-[#7f16f7] font-roboto'>Upload Pdf Document</p>
     {url && <>
@@ -132,7 +132,6 @@ const UploadFile = () => {
       </>
     }
 </div>
-
 
 </div>
 

@@ -1,5 +1,10 @@
+import { useEffect } from "react";
 import  GoogleLoginButton  from "../../components/google_login_button/GoogleLoginButton";
+import { UseLoginData } from "../../store/UseLoginData";
 export default function Login() {
+  useEffect(()=>{
+    localStorage.setItem('isLogin',false);
+  },[])
   return (<>
 
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-[#ffffff]">

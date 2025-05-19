@@ -37,9 +37,8 @@ function DemoPageContent() {
         flexDirection: 'column',
         alignItems: 'center',
         textAlign: 'center',
-        scrollbarWidth:'none !important'
       }}
-    className="document-sidebar ">
+    className="document-sidebar">
       <Outlet />
     </Box>
   );

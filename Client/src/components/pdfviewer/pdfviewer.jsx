@@ -4,7 +4,7 @@ const Pdfviewer = () => {
   return (
     <center className='overflow-y-hidden '>
       <iframe src={Pdf} 
-      className='w-[75vw] h-screen media-[max-width:600px]:w-[100vw]  ' title=''></iframe>
+      className='w-[75vw] h-[87vh] media-[max-width:600px]:w-[100vw]  ' title=''></iframe>
     </center>
   )
 }
