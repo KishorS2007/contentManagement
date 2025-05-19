@@ -1,0 +1,10 @@
+.document-sidebar {
+  overflow: auto !important;
+  overflow-y: auto !important;
+  scrollbar-width: none !important;            
+  -ms-overflow-style: none !important;         
+}
+
+.document-sidebar::-webkit-scrollbar {
+  display: none !important;                    
+}

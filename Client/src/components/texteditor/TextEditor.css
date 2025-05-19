@@ -1,0 +1,46 @@
+/* <style> */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* </style> */
+.ql-toolbar {
+  background-color: #cfa7fb;
+  border: 1px solid #d1b0ff;
+}
+/* 
+.ql-toolbar .ql-formats button {
+  transition: background-color 0.2s ease;
+}
+ .ql-formats button:hover{
+  background-color: #ad80eb !important;
+  color: white !important;
+
+}
+.ql-toolbar .ql-formats button svg {
+  fill: white !important;
+  transition: fill 0.2s ease;
+}
+.ql-formats button::selection{
+  background-color: rgb(153, 91, 239) !important;
+
+}
+.ql-snow .ql-stroke{
+  stroke: white;
+}
+
+ */
+
+.ql-editor {
+    min-height: 35vh;
+    background: #f5f9fa;
+}
+*{
+ /* .roboto-<uniquifier> { */
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  /* color: #333; */
+  font-variation-settings:
+    "wdth" 100;
+/* } */
+
+}
